@@ -1,0 +1,155 @@
+.line{
+	display: inline;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	padding: 0 2rem;
+	background-color: tomato;
+}
+
+.line :hover{
+	background: none;
+	color: white;
+	font-size: 25px;
+	transition: 0.7s;
+}
+
+
+
+
+
+
+
+.bgimage{
+    width: 100%;
+    height: 120vh;
+    object-fit: cover;
+	position: relative;
+	overflow: hidden;
+}
+
+.sucess{
+	top:10px;
+    position: absolute;
+    padding-top: 20%;
+    padding-left: 46%;
+}
+
+
+
+
+.text1{
+    position: absolute;
+    top: 70%;
+    left: 22%;
+	padding: 3rem 4rem;
+    text-align: center;
+    font-family: 'optima', sans-serif;
+}
+
+.text1 h1{
+    font-weight: 600;
+	font-size: 2.5rem;
+	letter-spacing: 0.2px;
+	margin-bottom: 2rem;
+    line-height: 1px;
+}
+
+.text1 h3{
+    color:#fcfffb;
+    font-weight: 550;
+	text-align: center;
+	font-size: 2rem;
+	letter-spacing: 0.2px;
+	margin-bottom: 2rem;
+}
+
+
+
+
+
+.btn{
+	position: absolute;
+	top: 110%;
+	left: 35%;
+	transform: translate(-50% , -50%);
+}
+
+.btn2{
+	position: absolute;
+	top: 110%;
+	left: 65%;
+	transform: translate(-50% , -50%);
+
+}
+
+div button{
+	background: #94cc6a;
+	color: white;
+	width: 200px;
+	height: 50px;
+	border: 1px solid #e0edf1;
+	font-size: 20px;
+	border-radius: 7px;
+	font-family: 'optima', sans-serif;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+.button2{
+	background:#99cfe0;
+	color: white;
+	width: 200px;
+	height: 50px;
+	border: 1px solid #e0edf1;
+	font-size: 20px;
+	border-radius: 7px;
+	font-family: 'optima', sans-serif;
+	transition: 0.5s;
+	overflow: hidden;
+}
+
+div button:focus{
+	outline: none;
+}
+
+div button:hover{
+	background: #d6652c;
+	color: white;
+	cursor: pointer;
+}
+
+div button:hover:before{
+	transform: translateX(300px) skewX(-15deg);
+	opacity: .6s;
+	transition: .7s;
+}
+
+div button:hover:after{
+	transform: translateX(300px) skewX(-15deg);
+	opacity: 1s;
+	transition: .7s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,298 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-image: url("Logo.png");
+  background-repeat: no-repeat;
+}
+
+/* Style the header */
+header {
+  background-color: #97b2de;
+  padding: 18px;
+  text-align:center;  
+  font-size: 20px;}
+/*body image*/
+body
+{
+    background-image:url(images\img1.jpg);
+}
+/*project name*/
+h1{
+   font-family:ui-rounded;
+   font-weight:bold;
+   font-size:48px;
+   font-style:italic;
+   text-align:top;
+   font-family:notosans;
+   Color:#092147;
+  }
+
+a1{
+float:right;
+}
+
+
+/*nagigation*/
+Body{
+   margin:0;
+   font-family:Arial,Helvetica,sans-serif;
+}
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float:left;
+  color:#092147;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color:#D5DDDF ;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#FFD601;
+  color: white;
+}
+/*searching*/.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+article
+{
+  font-size:18px;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+/*footer*/
+
+.footer{
+align:left;
+ bottom:0;
+width:100%;
+background-color:#092147;
+color:rgb(242, 238, 238);
+}
+.footer .box-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+   gap: 3rem;
+}
+
+.footer .box-container .box h3{
+   color:var(--white);
+   font-size: 12 px;
+   padding-bottom: 2rem;
+}
+
+.footer .box-container .box a{
+   color:var(--light-white);
+   font-size: 14 px;
+   padding-bottom: 0.5rem;
+   display: block;
+}
+
+.footer .box-container .box a i{
+   color:var(--main-color);
+   padding-right: .3rem;
+   transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i{
+   padding-right: 1rem;
+}
+
+
+
+.userBtn{
+  position:absolute;
+  right:0;
+  top:4%;
+  margin-right: 120px;
+  /* margin-top: 4px; */
+
+}
+.logoutBtn{
+  position:absolute;
+  right:0;
+  top:4%;
+  margin-right: 10px;
+}
+.userBtn img{
+  border-radius: 50%;
+  }
+
+.container{
+  margin: 0px;
+}
+/* login page */
+.login_page{
+  width: 40%;
+  height:fit-content;
+  border:3px solid rgb(230, 223, 223);
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 20px;
+  /* position: absolute; */
+}
+.login_page .user{
+  border-radius: 50%;
+  margin: 3px;
+}
+/*QuickReset*/
+*{margin:0;box-sizing:border-box;}
+html,body{height:100%;font:14px/1.4 sans-serif;}
+input, textarea{font:14px/1.4 sans-serif;}
+
+.input-group{
+  display: table;
+  border-collapse: collapse;
+  width:100%;
+}
+.input-group > div{
+  display: table-cell;
+  border: 1px solid #ddd;
+  vertical-align: middle;  /* needed for Safari */
+}
+.input-group-icon{
+  background:#eee;
+  color: #777;
+  padding: 0 12px
+}
+.input-group-area{
+  width:100%;
+}
+.input-group input{
+  border: 0;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+.login_page .input-group{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 50%;
+}
+.login_page .btn{
+  width: 60%;
+  cursor:pointer;
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.login_page .btn:hover{
+  background-color: rgb(10, 196, 10);
+}
+.login_page .signup{
+  margin-top: 10px;
+}
+.login_page .signup a{
+  text-decoration: none;
+}
+
+/* sign up page */
+
+.signup_page{
+  width: 40%;
+  height:fit-content;
+  border:3px solid black;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 10px;
+  /* position: absolute; */
+}
+.signup_page .user{
+  border-radius: 50%;
+  margin: 3px;
+}
+.signup_page .input-group{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 80%;
+}
+.signup_page .btn{
+  width: 60%;
+  cursor:pointer;
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.signup_page .btn:hover{
+  background-color: rgb(10, 196, 10);
+}
+.signup_page .signup{
+  margin-top: 10px;
+}
+.signup_page .signup a{
+  text-decoration: none;
+}
+/* profile page */
+.profile_page{
+  width: 60%;
+  height:fit-content;
+  border:3px solid black;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius: 10px;
+  /* position: absolute; */
+}
+.profile_page .user{
+  border-radius: 50%;
+  margin: 3px;
+}
+.profile_page .input-group{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  width: 80%;
+}
+.profile_page .btn{
+  width: 60%;
+  cursor:pointer;
+  background-color: green;
+  color: white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.profile_page .btn-p{
+  width: 15%;
+  cursor:pointer;
+  background-color: blue;
+  color: white;
+  border-radius: 30px;
+  padding: 8px;
+
+}
